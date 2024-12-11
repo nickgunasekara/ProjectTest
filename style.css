@@ -1,0 +1,144 @@
+/* General Reset */
+* .auth-buttons {
+    display: flex;
+    gap: 10px; /* Adds space between the buttons */
+  }
+  
+  .login-btn,
+  .signup-btn {
+    padding: 8px 20px;
+    border: 2px solid #69a8ff; /* Blue border */
+    border-radius: 20px; /* Rounded edges */
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  /* Login Button Styles */
+  .login-btn {
+    background-color: transparent; /* Transparent background */
+    color: #69a8ff; /* Blue text */
+  }
+  
+  .login-btn:hover {
+    background-color: #69a8ff; /* Blue background on hover */
+    color: #121212; /* Dark text on hover */
+  }
+  
+  /* SignUp Button Styles */
+  .signup-btn {
+    background-color: #69a8ff; /* Blue background */
+    color: #121212; /* Dark text */
+  }
+  
+  .signup-btn:hover {
+    background-color: #4e91e3; /* Darker blue on hover */
+  }
+  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 25%;
+    background-color: #1c1c1c;
+    padding: 20px;
+  }
+  
+  .new-chat-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .chat-history h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .chat-history ul {
+    list-style: none;
+  }
+  
+  .chat-history li {
+    background-color: #d9d9d9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: #121212;
+  }
+  
+  /* Main Content */
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    dis
+ /* + New Chat */
+.new-chat-button {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  /* Chat History */
+  .chat-history-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .chat-history-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Chat buttons */
+  .chat-button {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
